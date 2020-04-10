@@ -8,7 +8,7 @@ function NotificationManager(addEventListener, isEnabled) {
 			type: 'basic',
 			title: 'Animal Crossing Music',
 			iconUrl: `../img/${icon}.png`,
-			silent: true,
+//			silent: true,
 			message
 		});
 	}

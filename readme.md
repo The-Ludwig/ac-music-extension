@@ -1,3 +1,19 @@
+# A super fast (unfinished and ugly) port for "Animal Crossing Music" to work as a firefox extension
+
+
+Installation: 
+
+
+Ported features: 
+* enabling Add-On
+* Playing music
+* options page
+
+TODO: 
+* chrome synch replace
+* make animations work on options page switch
+* a lot of other stuff
+
 ![Project Banner](docs/banner.png)
 
 # Animal Crossing Music 🍀

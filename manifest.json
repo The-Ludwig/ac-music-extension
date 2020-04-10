@@ -33,15 +33,19 @@
    },
    "manifest_version": 2,
    "name": "Animal Crossing Music",
-   "options_page": "options.html",
+   "options_ui": {
+      "page": "options.html",
+      "open_in_tab": true
+   },
    "permissions": [
       "notifications",
-      "storage",
-      "https://acmusicext.com/"
+      "storage"
    ],
-   "optional_permissions": [
-      "background"
-   ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
+   "browser_specific_settings": {
+      "gecko": {
+        "id": "firefox@animalcrossing.music",
+        "strict_min_version": "42.0"
+      }
+    },  
    "version": "4.2.0"
 }

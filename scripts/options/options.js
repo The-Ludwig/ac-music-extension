@@ -67,7 +67,7 @@ window.onload = function () {
 
 	exclamationElements.forEach(el => {
 		document.getElementById(el).onclick = () => {
-			let element = document.getElementById(el.split('-link')[0]);
+			let element = document.getElementById(el.split('-')[0]);
 			element.style.animation = 'scrolled 1s';
 			element.onanimationend = () => element.style.animation = null;
 		}

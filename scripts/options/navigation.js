@@ -32,7 +32,7 @@ $(function() {
     });
 
     modal.click(function() {
-      modalPage.addClass('pulse').on('webkitAnimationEnd', function() {
+      modalPage.addClass('pulse').on('animationend', function() {
         $(this).removeClass('pulse');
       });
     });
